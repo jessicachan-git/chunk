@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="#0f0f14"/>
+
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="272" r="120" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.3"/>
+
+  <!-- Lock body -->
+  <rect x="176" y="248" width="160" height="140" rx="24" fill="#1a1a24" stroke="#6366f1" stroke-width="4"/>
+
+  <!-- Lock shackle -->
+  <path d="M200 248 L200 192 C200 152 232 124 256 124 C280 124 312 152 312 192 L312 248"
+        fill="none" stroke="#6366f1" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Keyhole -->
+  <circle cx="256" cy="308" r="16" fill="#6366f1"/>
+  <rect x="250" y="316" width="12" height="32" rx="6" fill="#6366f1"/>
+
+  <!-- Subtle accent dots -->
+  <circle cx="256" cy="440" r="4" fill="#6366f1" opacity="0.5"/>
+  <circle cx="240" cy="440" r="3" fill="#6366f1" opacity="0.3"/>
+  <circle cx="272" cy="440" r="3" fill="#6366f1" opacity="0.3"/>
+</svg>
